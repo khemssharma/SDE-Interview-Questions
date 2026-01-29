@@ -1,5 +1,34 @@
 # Common Frontend Theoritical Questions
 
+## JavaScript
+
+### What is a closure and what is a closure function?
+
+A closure is when a function remembers variables from its outer (lexical) scope.
+A closure function is a function that retains access to those outer-scope variables even after the outer function has finished executing.
+This is possible because in JavaScript, variables are not garbage-collected as long as they are still referenced by a function."
+
+---
+
+### Callback Function
+A callback function is a function that is passed as an argument to another function and is executed later, usually after an event or operation is completed.
+
+---
+
+### Handlers
+Handlers are functions that are responsible for handling a specific event, request, or action.
+
+---
+
+### Events
+Events are actions or occurrences triggered by user interactions or by the system, such as clicking a button, pressing a key, or loading a page.
+
+---
+
+### Hoisting in JavaScript
+Hoisting is JavaScript’s behavior where variable and function declarations are moved to the top of their scope during compilation, allowing them to be accessed before their declaration.
+
+
 ## React.js Questions & Model Answers
 - What are the main features of React?
 
